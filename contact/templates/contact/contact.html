@@ -1,0 +1,49 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'contact/styles/contact.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="contact-banner-header">Contact Us</h1>
+        <p class="contact-banner-description">
+            Feel free to contact us anytime. Our links our provided in the description below.
+            If you encounter any bugs on the site, please report them so that we can fix
+            them straight away.
+        </p>
+    </div>
+</div>
+<div class="contact">
+    <h3>Contact Points</h3>
+    <div class="contact-points">
+        <div>
+            <h6 class="contact-type">Email</h6>
+            <p class="contact-point">YPAexec@gmail.com</p>
+        </div>
+        <div>
+            <h6 class="contact-type">Instagram</h6>
+            <p class="contact-point">YPAexec</p>
+        </div>
+        <div>
+            <h6 class="contact-type">AOPS</h6>
+            <p class="contact-point">YPAexec</p>
+        </div>
+    </div>
+</div>
+<div class="issue-report-form">
+    <form method="POST">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            <legend class="border-botton mb-4 text-center">Report Issue</legend>
+            {{ report_form|crispy }}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline-info" type="submit">Report</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

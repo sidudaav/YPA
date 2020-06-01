@@ -46,12 +46,22 @@
                 <a class="nav-link" href="{% url 'team:team' %}">Our Team</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="{% url 'contact:contact' %}">Contact</a>
             </li>
         </ul>
     </nav>
 
-    {% block content %}{% endblock %}
+    <div>
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% block content %}{% endblock %}
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

@@ -1,0 +1,41 @@
+h1.contact-banner-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 5rem;
+    color: black;
+}
+
+p.contact-banner-description {
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    max-width: 60%;
+}
+
+div.issue-report-form {
+    position: absolute;
+    top: 23.5rem;
+    right: 2rem;
+    width: 30%;
+}
+
+div.issue-report-form form {
+    height: 10rem;
+}
+
+div.contact {
+    margin: 2rem;
+}
+
+div.contact-points {
+    position: relative;
+    top: 2rem;
+}
+
+h6.contact-type {
+    font-weight: 600;
+}
+
+p.contact-point {
+    font-weight: 200;
+}
