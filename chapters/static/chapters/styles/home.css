@@ -1,0 +1,102 @@
+h1.chapter-banner-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 5rem;
+    color: blue;
+}
+
+p.chapter-banner-description {
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    max-width: 60%;
+}
+
+div.register-chapter {
+    text-align: center;
+    margin-left: 2rem;
+    width: 40%;
+}
+
+a.register-chapter-btn {
+    position: relative;
+    top: 1rem;
+    padding: 1rem;
+    background-color: gray;
+    border-radius: 1000rem;
+    color: White;
+}
+
+a.register-chapter-btn:hover {
+    color: black;
+}
+
+a.register-chapter-btn:active {
+    color: white;
+    background-color: black;
+}
+
+div.view-chapters {
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    top: 25rem;
+    right: 2rem;
+}
+
+a.view-chapters-btn {
+    position: relative;
+    top: 1rem;
+    padding: 1rem;
+    background-color: gray;
+    border-radius: 1000rem;
+    color: White;
+}
+
+a.view-chapters-btn:hover {
+    color: black;
+}
+
+a.view-chapters-btn:active {
+    color: white;
+    background-color: black;
+}
+
+#faq-list {
+    position: absolute;
+    top: 42rem;
+    margin-left: 2rem;
+    width: 70rem;
+    margin-bottom: 10rem;
+}
+
+.faq{
+    margin-bottom: 1rem;
+}
+
+.faq-question-plus {
+    width: 70rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    background: peachpuff;
+}
+
+.faq-question {
+    position: relative;
+    left: 1rem;
+}
+
+.plus-or-minus {
+    position: relative;
+    left: 62rem;
+}
+
+.faq-answer {
+    display: none;
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+    margin-bottom: 3rem;
+}
+

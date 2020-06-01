@@ -1,0 +1,77 @@
+{% extends 'home/base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'team/styles/team.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="team-banner-header">Our Team</h1>
+        <p class="team-banner-description">
+            Our team is composed of highly dedicated high school studenst from the United States
+            and Canada. Each and every member on our team is determined to provide the best content
+            and services to our members.
+        </p>
+    </div>
+</div>
+<div id="team-list">
+    <div id="board">
+        <h1 class="board-heading">
+            Board of Directors
+        </h1>
+        <div class="sid card">
+            <div class="card-body">
+                <img src="{{ SidJhaImage.image_file.url }}" class="profile-img img-fluid rounded-circle">
+                <div class="profile-information">
+                    <h3 class="name">
+                        Sid Jha
+                    </h3>
+                    <h6 class="position">
+                        Co-Founder & CEO
+                    </h6>
+                    <h6 class="school">
+                        Huron High School
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="jerry card">
+            <div class="card-body">
+                <img src="{{ JerryLiImage.image_file.url }}" class="profile-img img-fluid rounded-circle">
+                <div class="profile-information">
+                    <h3 class="name">
+                        Jerry Li
+                    </h3>
+                    <h6 class="position">
+                        Co-Founder & COO
+                    </h6>
+                    <h6 class="school">
+                        Huron High School
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="joshua card">
+            <div class="card-body">
+                <img src="{{ JoshuaScripcaruImage.image_file.url }}" class="profile-img img-fluid rounded-circle">
+                <div class="profile-information">
+                    <h3 class="name">
+                        Joshua Scripcaru
+                    </h3>
+                    <h6 class="position">
+                        Co-Founder & Events Manager
+                    </h6>
+                    <h6 class="school">
+                        Something Canadian
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="team-members">
+        <h1 class="team-heading">Team Members</h1>
+    </div>
+</div>
+{% endblock %}

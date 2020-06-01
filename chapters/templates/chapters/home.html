@@ -1,0 +1,79 @@
+{% extends 'home/base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'chapters/styles/home.css' %}">
+{% endblock %}
+
+{% block js %}
+<script src="{% static 'chapters/js/home.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="chapter-banner-header">Chapters</h1>
+        <p class="chapter-banner-description">
+            Chapters allow for students and schools to be a part of YPA.
+            Chapters allow for students and schools to be a part of YPA.
+            Chapters allow for students and schools to be a part of YPA.
+        </p>
+    </div>
+</div>
+<div class="register-chapter">
+    <h3>
+        Register a Chapter
+    </h3>
+    <p>
+        Registering a chapter is quick and easy! Just click the button and fill out the
+        neccesary information. YPA will alert you within a few days to confirm your
+        registration. We cannot wait for you to be a part of our organization!
+    </p>
+    <a class="register-chapter-btn" href="#">Register a Chapter</a>
+</div>
+<div class="view-chapters">
+    <h3>
+        View Chapters
+    </h3>
+    <p>
+        Well we dont have anything right now
+    </p>
+    <a class="view-chapters-btn" href="#">View Chapters</a>
+</div>
+<div id="faq-list">
+    <h3>Frequently Asked Questions</h3>
+    <div class="faq">
+        <span class="faq-question-plus">
+            <span class="faq-question">
+                Question
+            </span>
+            <a href="#" data-action="open" class="fas plus-or-minus fa-plus"></a>
+        </span>
+        <div class="faq-answer">
+            Answer
+        </div>
+    </div>
+    <div class="faq">
+        <span class="faq-question-plus">
+            <span class="faq-question">
+                Question
+            </span>
+            <a href="#" data-action="open" class="fas plus-or-minus fa-plus"></a>
+        </span>
+        <div class="faq-answer">
+            Answer
+        </div>
+    </div>
+    <div class="faq">
+        <span class="faq-question-plus">
+            <span class="faq-question">
+                Question
+            </span>
+            <a href="#" data-action="open" class="fas plus-or-minus fa-plus"></a>
+        </span>
+        <div class="faq-answer">
+            Answer
+        </div>
+    </div>
+</div>
+{% endblock %}

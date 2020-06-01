@@ -1,0 +1,103 @@
+h1.team-banner-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 5rem;
+    color: green;
+}
+
+p.team-banner-description {
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    max-width: 60%;
+}
+
+h1.board-heading {
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+    max-width: 75%;
+    padding: 5rem;
+    background-color: red;
+    color: white;
+    border-radius: 1000rem;
+    margin-bottom: 7rem;
+}
+
+h1.team-heading {
+    position: relative;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+    max-width: 75%;
+    padding: 5rem;
+    background-color: blue;
+    color: white;
+    border-radius: 1000rem;
+    margin-bottom: 7rem;
+    margin-top: 5rem;
+    top: 25rem;
+}
+
+.card {
+    margin-left: 5em;
+    margin-right: 5rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.card:hover {
+    background-color: #fffff0;
+    box-shadow: 0.3rem 0.3rem 2rem -0.8rem black;
+}
+
+img.profile-img {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+    left: 3.6rem;
+    bottom: 6rem;
+}
+
+div.profile-information {
+    position: relative;
+    bottom: 6rem;
+    text-align: center;
+}
+
+h3.name {
+    position: relative;
+    font-size: 2rem;
+    top: 1rem;
+    font-weight: 600;
+}
+
+h6.position {
+    position: relative;
+    top: 3rem;
+    font-weight: 300;
+}
+
+h6.school {
+    position: relative;
+    top: 5rem;
+    font-weight: 300;  
+}
+
+.card.sid {
+    position: absolute;
+    top: 45rem;
+}
+
+.card.jerry {
+    position: absolute;
+    top: 45rem;
+    left: 25rem;
+}
+
+.card.joshua {
+    position: absolute;
+    top: 45rem;
+    left: 50rem;
+}

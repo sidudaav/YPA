@@ -1,0 +1,71 @@
+h1.events-banner-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 5rem;
+    color: orange;
+}
+
+p.events-banner-description {
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    max-width: 60%;
+}
+
+#event-list {
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+.physics-speed-bowl .information {
+    position: absolute;
+    right: 10rem;
+    text-align: center;
+    max-width: 30rem;
+}
+
+.physics-speed-bowl .event-name {
+    color: blue;
+}
+
+.physics-speed-bowl .event-date {
+    position: relative;
+    top: 2rem;
+    align-items: center;
+}
+
+.physics-speed-bowl .event-date-header {
+    position: relative;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: red;
+}
+
+.physics-speed-bowl .event-date-time {
+    position: relative;
+    bottom: 0.15rem;
+    font-weight: 300;
+    color: green;
+}
+
+.physics-speed-bowl .event-image {
+    width: 30rem;
+    height: 20rem;
+}
+a.details-btn {
+    position: relative;
+    bottom: 0.1rem;
+    left: 1rem;
+    padding: 0.75rem;
+    background-color: gray;
+    border-radius: 1000rem;
+    color: White;
+}
+
+a.details-btn:hover {
+    color: black;
+}
+
+a.details-btn:active {
+    color: white;
+    background-color: black;
+}

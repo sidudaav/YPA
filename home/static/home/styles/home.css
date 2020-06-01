@@ -1,0 +1,31 @@
+h1.welcome-banner-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 5rem;
+    color: red;
+}
+
+p.welcome-banner-description {
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    max-width: 60%;
+}
+
+img.home-image {
+    margin-left: 2rem;
+    width: 30rem;
+    height: 20rem;
+}
+
+div.why-to-join {
+    position: absolute;
+    top: 25rem;
+    right: 10rem;
+    text-align: center;
+    max-width: 30rem;
+}
+
+div.why-to-join h3 {
+    color: blue;
+}

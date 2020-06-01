@@ -1,0 +1,38 @@
+{% extends 'home/base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'events/styles/events.css' %}">
+{% endblock %}
+
+
+{% block content %}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="events-banner-header">Events</h1>
+        <p class="events-banner-description">
+            YPA hosts a number of events throughout both the school year and the summer.
+            These events allow students to network and come together to have a great
+            experience solving physics problems or participating in challenges.
+        </p>
+    </div>
+</div>
+<div id="event-list">
+    <div class="physics-speed-bowl">
+        <div class="information">
+            <h3 class="event-name">Physics Speed Bowl</h3>
+            <p class="event-description">
+                The Physics Speed Bowl is the first ever event held by YPA. This
+                event brings together physics and a fast paced quiz bowl format.
+                In order to register for this event, you must have a team of 3-4 people.
+            </p>
+            <span class="event-date">
+                <span class="event-date-header">Date:</span>
+                <span class="event-date-time">mm/dd/yy - mm/dd/yy</span>
+                <a class="details-btn" href="#">Details</a>
+            </span>
+        </div>
+        <img class="event-image" src="{{ PhysicsSpeedBowlImage.image_file.url }}">
+    </div>
+</div>
+{% endblock %}
