@@ -38,7 +38,9 @@
     <form method="POST">
         {% csrf_token %}
         <fieldset class="form-group">
-            <legend class="border-botton mb-4 text-center">Report Issue</legend>
+            <legend class="border-botton mb-4 text-center">
+                <h3>Report Issue</h3>
+            </legend>
             {{ report_form|crispy }}
         </fieldset>
         <div class="form-group">
