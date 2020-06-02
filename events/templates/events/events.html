@@ -29,7 +29,7 @@
             <span class="event-date">
                 <span class="event-date-header">Date:</span>
                 <span class="event-date-time">mm/dd/yy - mm/dd/yy</span>
-                <a class="details-btn" href="#">Details</a>
+                <a class="details-btn" href="{% url 'events:psb-details' %}">Details</a>
             </span>
         </div>
         <img class="event-image" src="{{ PhysicsSpeedBowlImage.image_file.url }}">

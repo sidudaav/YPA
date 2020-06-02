@@ -1,0 +1,50 @@
+h1.psb-banner-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 5rem;
+    color: blue;
+}
+
+p.psb-banner-description {
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    max-width: 60%;
+}
+
+#register {
+    position: relative;
+    left: 2rem;
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+
+h3.register-header {
+    font-weight: 800;
+}
+
+#register li{
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+#rules {
+    position: relative;
+    left: 2rem;
+    max-width: 80%;
+}
+
+h3.rules-header {
+    font-weight: 800;
+}
+
+li.main-rule {
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+li.sub-rule {
+    font-weight: 300;
+    margin-top: 1rem;
+}
+

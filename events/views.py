@@ -11,3 +11,7 @@ def events(request):
     }
 
     return render(request, 'events/events.html', context)
+
+
+def psb_details(request):
+    return render(request, 'events/psb_details.html')

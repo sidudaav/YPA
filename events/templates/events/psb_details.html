@@ -1,0 +1,90 @@
+{% extends 'home/base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'events/styles/psb_details.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="psb-banner-header">Physics Speed Bowl</h1>
+        <p class="psb-banner-description">
+            Welcome to YPA's first ever event! Physics Speed Bowl(PSB) is a Quiz Bowl style
+            contest brining together interested and talented physics students. The competition
+            will take place through Zoom on INSERT DATE.
+        </p>
+    </div>
+</div>
+<div id="register">
+    <h3 class="register-header">Register</h3>
+    <ol>
+        <li>
+            <a href="https://forms.gle/TCGVQm7k8m94kP117">
+                Click this link to register
+            </a>
+        </li>
+        <li>
+            Only one member per team should fill out the registration
+            form.
+        </li>
+        <li>
+            After registering, you will receive a message confirming
+            your registration within a couple days.
+        </li>
+    </ol>
+</div>
+<div id="rules">
+    <h3 class="rules-header">Rules</h3>
+    <ol>
+        <li class="main-rule">
+            Each team will consist of 2-4 high school students.
+            <ul>
+                <li class="sub-rule">
+                    Students do not need to be in the same school to be on a team.
+                </li>
+            </ul>
+        </li>
+        <li class="main-rule">
+            Each round will consist of 20 questions.
+            <ul>
+                <li class="sub-rule">
+                    Each question is one point.
+                </li>
+                <li class="sub-rule">
+                    After 20 questions have been asked, the winner will be determined
+                    by the team with the most points.
+                </li>
+                <li class="sub-rule">
+                    If the score is tied after 20 questions, the winner will be determined
+                    by the team which answered the last question correctly.
+                </li>
+            </ul>
+        </li>
+        <li class="main-rule">
+            Questions will be at the difficulty of an advanced high school physics class.
+            <ul>
+                <li class="sub-rule">
+                    All questions will be free response (no multiple choice).
+                </li>
+                <li class="sub-rule">
+                    Each question will be given 15 seconds to be answered.
+                </li>
+                <li class="sub-rule">
+                    Students will have to answer each question without discussing with
+                    their team members.
+                </li>
+                <li class="sub-rule">
+                    If one team answers a question incorrectly, the opposing team will
+                    get a chance to answer.
+                </li>
+                <li class="sub-rule">
+                    Students may interrupt while a question is being read. However, they
+                    will not get to hear the full question. If the interrupted answer is
+                    incorrect, one point will be lost.
+                </li>
+            </ul>
+        </li>
+    </ol>
+</div>
+{% endblock %}
