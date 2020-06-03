@@ -36,7 +36,6 @@ h1.team-heading {
     border-radius: 1000rem;
     margin-bottom: 7rem;
     margin-top: 5rem;
-    top: 25rem;
 }
 
 .card {
@@ -98,8 +97,8 @@ h6.school {
 
 #team-members {
     position: relative;
-    bottom: 22rem;
 }
+
 
 @media only screen and (max-width: 66rem) {
     #board {
