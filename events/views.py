@@ -7,6 +7,7 @@ def events(request):
         Image, title="Home Information Image")
 
     context = {
+        'title': 'Events',
         'PhysicsSpeedBowlImage': PhysicsSpeedBowlImage
     }
 
@@ -14,4 +15,8 @@ def events(request):
 
 
 def psb_details(request):
-    return render(request, 'events/psb_details.html')
+    context = {
+        'title': 'PSB'
+    }
+
+    return render(request, 'events/psb_details.html', context)

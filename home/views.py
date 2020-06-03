@@ -5,6 +5,7 @@ from .models import Image
 def home(request):
     HomeImage = get_object_or_404(Image, title="Home Information Image")
     context = {
+        'title': 'Home',
         'HomeImage': HomeImage
     }
     return render(request, 'home/home.html', context)

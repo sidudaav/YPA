@@ -2,4 +2,7 @@ from django.shortcuts import render, get_object_or_404
 
 
 def home(request):
-    return render(request, 'chapters/home.html')
+    context = {
+        'title': 'Chapters'
+    }
+    return render(request, 'chapters/home.html', context)

@@ -9,6 +9,7 @@ def team(request):
         Image, title="Joshua Scripcaru Profile Image")
 
     context = {
+        'title': 'Team',
         'SidJhaImage': SidJhaImage,
         'JerryLiImage': JerryLiImage,
         'JoshuaScripcaruImage': JoshuaScripcaruImage,
