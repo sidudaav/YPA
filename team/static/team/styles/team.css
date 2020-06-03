@@ -40,8 +40,6 @@ h1.team-heading {
 }
 
 .card {
-    margin-left: 5em;
-    margin-right: 5rem;
     width: 20rem;
     height: 20rem;
 }
@@ -85,19 +83,42 @@ h6.school {
     font-weight: 300;  
 }
 
-.card.sid {
-    position: absolute;
-    top: 45rem;
+#board .card-columns {
+    display: inline-block;
 }
 
-.card.jerry {
-    position: absolute;
-    top: 45rem;
-    left: 25rem;
+#board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 7rem;
+    justify-items: center;
+    align-items: center;
 }
 
-.card.joshua {
-    position: absolute;
-    top: 45rem;
-    left: 50rem;
+#team-members {
+    position: relative;
+    bottom: 22rem;
+}
+
+@media only screen and (max-width: 66rem) {
+    #board {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+        row-gap: 7rem;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 44rem) {
+    #board {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 2rem;
+        row-gap: 7rem;
+        justify-items: center;
+        align-items: center;
+    }
 }

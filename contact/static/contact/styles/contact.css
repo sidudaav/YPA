@@ -39,3 +39,21 @@ h6.contact-type {
 p.contact-point {
     font-weight: 200;
 }
+
+@media only screen and (max-width: 62rem) {
+    div.issue-report-form {
+        position: absolute;
+        top: 27rem;
+        right: 2rem;
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 48rem) {
+    div.issue-report-form {
+        position: absolute;
+        top: 28rem;
+        right: 2rem;
+        width: 30%;
+    }
+}

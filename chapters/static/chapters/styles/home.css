@@ -1,3 +1,7 @@
+div.jumbotron {
+    max-height: 20rem;
+}
+
 h1.chapter-banner-header {
     text-align: center;
     font-weight: 600;
@@ -100,3 +104,88 @@ a.view-chapters-btn:active {
     margin-bottom: 3rem;
 }
 
+
+@media only screen and (max-width: 51rem) {
+    div.jumbotron {
+        max-height: 25rem;
+    }
+
+    div.view-chapters {
+        position: absolute;
+        text-align: center;
+        width: 40%;
+        top: 26.5rem;
+        right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 50.5rem) {
+    div.jumbotron {
+        max-height: 25rem;
+    }
+
+    div.view-chapters {
+        position: absolute;
+        text-align: center;
+        width: 40%;
+        top: 26.5rem;
+        right: 2rem;
+    }
+
+    #faq-list {
+        position: absolute;
+        top: 44rem;
+        margin-left: 2rem;
+        width: 100%;
+        margin-bottom: 10rem;
+    }
+
+@media only screen and (max-width: 48rem) {
+    div.jumbotron {
+        max-height: 25rem;
+    }
+
+    div.view-chapters {
+        position: absolute;
+        text-align: center;
+        width: 40%;
+        top: 29.5rem;
+        right: 2rem;
+    }
+
+    #faq-list {
+        position: absolute;
+        top: 50rem;
+        margin-left: 2rem;
+        width: 100%;
+        margin-bottom: 10rem;
+    }
+}
+
+@media only screen and (max-width: 36rem) {
+    div.jumbotron {
+        max-height: 25rem;
+    }
+
+    div.view-chapters {
+        position: absolute;
+        text-align: center;
+        width: 40%;
+        top: 32rem;
+        right: 2rem;
+    }
+
+    #faq-list {
+        position: absolute;
+        top: 55rem;
+        margin-left: 2rem;
+        width: 100%;
+        margin-bottom: 10rem;
+    }
+
+    .plus-or-minus {
+        position: relative;
+        left: 75%;
+    }
+    
+}
