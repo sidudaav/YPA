@@ -16,3 +16,8 @@ div.main-div {
 .navbar {
     background-color: white;
 }
+
+div.messages {
+    position: absolute;
+    width: 100%;
+}
