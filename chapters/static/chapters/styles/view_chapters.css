@@ -1,0 +1,29 @@
+h1.view-chapters-banner-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 5rem;
+    color: purple;
+}
+
+p.view-chapters-banner-description {
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    max-width: 60%;
+}
+
+#chapters {
+    position: relative;
+    left: 2rem;
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+
+h3.chapters-header {
+    font-weight: 800;
+}
+
+li.chapter {
+    font-weight: 500;
+    margin-top: 1rem;
+}

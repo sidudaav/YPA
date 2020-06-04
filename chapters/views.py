@@ -6,3 +6,10 @@ def home(request):
         'title': 'Chapters'
     }
     return render(request, 'chapters/home.html', context)
+
+
+def view_chapters(request):
+    context = {
+        'title': 'Chapters'
+    }
+    return render(request, 'chapters/view_chapters.html', context)
