@@ -93,7 +93,21 @@ a.view-chapters-btn:active {
 
 .plus-or-minus {
     position: relative;
-    left: 80%;
+}
+
+#sign1.plus-or-minus {
+    position: relative;
+    left: 35rem;
+}
+
+#sign2.plus-or-minus {
+    position: relative;
+    left: 39.3rem;
+}
+
+#sign3.plus-or-minus {
+    position: relative;
+    left: 40.15rem;
 }
 
 .faq-answer {
@@ -102,6 +116,7 @@ a.view-chapters-btn:active {
     left: 1rem;
     top: 1rem;
     margin-bottom: 3rem;
+    max-width: 65%;
 }
 
 
