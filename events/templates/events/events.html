@@ -32,7 +32,7 @@
                 <a class="details-btn" href="{% url 'events:psb-details' %}">Details</a>
             </span>
         </div>
-        <img class="event-image" src="{{ PhysicsSpeedBowlImage.image_file.url }}">
+        <img class="event-image" src="{% static 'events/images/PhysicsImage.jpeg' %}">
     </div>
 </div>
 {% endblock %}
