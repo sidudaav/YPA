@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ['*', 'https://ypaphysics.herokuapp.com/']
 # Application definition
 
 INSTALLED_APPS = [
+    'articles.apps.ArticlesConfig',
     'contact.apps.ContactConfig',
     'events.apps.EventsConfig',
     'chapters.apps.ChaptersConfig',

@@ -1,0 +1,40 @@
+div.jumbotron {
+    max-height: 20rem;
+}
+
+h1.articles-banner-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 5rem;
+    color: red;
+}
+
+p.articles-banner-description {
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    max-width: 60%;
+}
+
+.card {
+    width: 25rem;
+    height: 30rem;
+}
+
+.card:hover {
+    background-color: lightgreen;
+    box-shadow: 0.3rem 0.3rem 2rem -0.8rem blue;
+}
+
+#article-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 7rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.article-img {
+    height: 15rem;
+}
