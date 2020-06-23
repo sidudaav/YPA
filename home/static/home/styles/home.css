@@ -104,5 +104,7 @@ div.why-to-join h3 {
         left: 4rem;
         top: 45rem;
         max-width: 40rem;
+        margin: 0rem;
+        padding 0rem;
     }
 }
