@@ -52,7 +52,7 @@ p.contact-point {
 @media only screen and (max-width: 48rem) {
     div.issue-report-form {
         position: absolute;
-        top: 28rem;
+        top: 30rem;
         right: 2rem;
         width: 30%;
     }
