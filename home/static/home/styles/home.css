@@ -70,3 +70,39 @@ div.why-to-join h3 {
         max-width: 40rem;
     }
 }
+
+@media only screen and (max-width: 46rem) {
+    div.jumbotron {
+        max-height: 40rem;
+    }    
+
+    img.home-image {
+        display: none;
+    }
+
+    div.why-to-join {
+        position: absolute;
+        text-align: center;
+        left: 4rem;
+        top: 45rem;
+        max-width: 40rem;
+    }
+}
+
+@media only screen and (max-width: 46rem) {
+    div.jumbotron {
+        max-height: 40rem;
+    }    
+
+    img.home-image {
+        display: none;
+    }
+
+    div.why-to-join {
+        position: absolute;
+        text-align: center;
+        left: 4rem;
+        top: 45rem;
+        max-width: 40rem;
+    }
+}

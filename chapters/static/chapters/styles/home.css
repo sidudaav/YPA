@@ -191,6 +191,7 @@ a.view-chapters-btn:active {
     }
 
     #faq-list {
+        display: none;
         position: absolute;
         top: 55rem;
         margin-left: 2rem;
@@ -202,5 +203,28 @@ a.view-chapters-btn:active {
         position: relative;
         left: 75%;
     }
-    
+}
+
+@media only screen and (max-width: 30rem) {
+    div.jumbotron {
+        max-height: 25rem;
+        background-color: red;
+    }
+
+    div.view-chapters {
+        position: absolute;
+        text-align: center;
+        width: 40%;
+        top: 35rem;
+        right: 2rem;
+    }
+
+    #faq-list {
+        display: none;
+        position: absolute;
+        top: 55rem;
+        margin-left: 2rem;
+        width: 100%;
+        margin-bottom: 10rem;
+    }
 }
