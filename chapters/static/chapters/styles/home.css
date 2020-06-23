@@ -208,7 +208,6 @@ a.view-chapters-btn:active {
 @media only screen and (max-width: 30rem) {
     div.jumbotron {
         max-height: 25rem;
-        background-color: red;
     }
 
     div.view-chapters {
