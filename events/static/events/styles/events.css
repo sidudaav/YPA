@@ -54,6 +54,7 @@ p.events-banner-description {
 .physics-speed-bowl .event-image {
     margin-left: 2rem;
     width: 35%;
+    box-shadow: 0.3rem 0.3rem 2rem -0.8rem black;
 }
 a.details-btn {
     position: relative;
