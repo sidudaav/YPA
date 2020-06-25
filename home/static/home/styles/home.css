@@ -24,6 +24,7 @@ div.information {
 img.home-image {
     margin-left: 2rem;
     width: 35%;
+    box-shadow: 0.3rem 0.3rem 2rem -0.8rem black;
 }
 
 div.why-to-join {
