@@ -19,8 +19,8 @@ p.team-banner-description {
 }
 
 .card:hover {
-    background-color: #fffff0;
-    box-shadow: 0.3rem 0.3rem 2rem -0.8rem yellow;
+    background-color: rgb(169, 241, 253);
+    box-shadow: 0.3rem 0.3rem 2rem -0.5rem red;
 }
 
 img.profile-img {
