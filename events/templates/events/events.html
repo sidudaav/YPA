@@ -20,17 +20,21 @@
 <div id="event-list">
     <div class="physics-speed-bowl">
         <div class="information">
-            <h3 class="event-name">Physics Speed Bowl</h3>
+            <h3 class="event-name">Physics Speed Bowl (COMPLETED)</h3>
             <p class="event-description">
                 The Physics Speed Bowl is the first ever event held by YPA. This
                 event brings together physics and a fast paced quiz bowl format.
                 In order to register for this event, you can have a team of up to 4 people.
             </p>
-            <span class="event-date">
-                <span class="event-date-header">Date:</span>
-                <span class="event-date-time">July 10th 3:00 EST</span>
+            <div class="event-date">
+                <p class="event-date-header">Date:</p>
+                <p class="event-date-time">July 10th 3:00 EST</p>
                 <a class="details-btn" href="{% url 'events:psb-details' %}">Details</a>
-            </span>
+            </div>
+            <p class="result">Winner: Blairlake</p>
+            <p class="result">Finalist: Chandrasekhar Limit</p>
+            <p class="result">Semi-Finalist: Allen Ahemdabad</p>
+            <p class="result">Semi-Finalist: Annihilators</p>
         </div>
         <img class="event-image" src="{% static 'events/images/PSB_Square.png' %}">
     </div>

@@ -17,14 +17,14 @@ p.events-banner-description {
 }
 
 #event-list {
-    margin: 0rem 2rem 0rem 2rem;
+    margin: 0rem;
 }
 
 .physics-speed-bowl .information {
-    position: absolute;
-    right: 10rem;
     text-align: center;
     max-width: 45%;
+    margin-left:1rem;
+    margin-right:auto;
 }
 
 .physics-speed-bowl .event-name {
@@ -34,7 +34,11 @@ p.events-banner-description {
 .physics-speed-bowl .event-date {
     position: relative;
     top: 2rem;
+    left: 30%;
     align-items: center;
+    display: flex;
+    justify-content: space-between;  
+    width: 15rem;
 }
 
 .physics-speed-bowl .event-date-header {
@@ -55,6 +59,9 @@ p.events-banner-description {
     margin-left: 2rem;
     width: 35%;
     box-shadow: 0.3rem 0.3rem 2rem -0.8rem black;
+    position: relative;
+    left: 60%;
+    bottom: 22rem;
 }
 a.details-btn {
     position: relative;
@@ -75,18 +82,47 @@ a.details-btn:active {
     background-color: black;
 }
 
+p.result {
+    font-weight: 800;
+    position: relative;
+    top: 3rem;
+}
+
 @media only screen and (max-width: 65rem) {
     div.jumbotron {
         max-height: 25rem;
+    }
+}
+
+@media only screen and (max-width: 35rem) {
+    .physics-speed-bowl .information {
+        text-align: center;
+        max-width: 45%;
+        margin-left:1rem;
+        margin-right:auto;
+        position: relative;
     }
 
     .physics-speed-bowl .event-image {
         display: none;
     }
+}
+
+@media only screen and (max-width: 22rem) {
+    div.jumbotron {
+        max-height: 27rem;
+    }
+
     .physics-speed-bowl .information {
-        position: absolute;
         text-align: center;
-        left: 7.5rem;
-        max-width: 55rem;
+        max-width: 45%;
+        margin-left:1rem;
+        margin-right:auto;
+        position: relative;
+        top: 2rem;
+    }
+
+    .physics-speed-bowl .event-image {
+        display: none;
     }
 }

@@ -103,6 +103,9 @@ button.apply {
 }
 
 @media only screen and (max-width: 44rem) {
+    body {
+        background-color: red;
+    }
     #team-list {
         display: grid;
         grid-template-columns: 1fr;
