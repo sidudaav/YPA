@@ -1,21 +1,18 @@
 h1.team-banner-header {
-    text-align: center;
     font-weight: 600;
     font-size: 5rem;
-    color: green;
+    color: pink;
 }
 
 p.team-banner-description {
-    text-align: center;
-    margin: auto;
     margin-top: 1rem;
-    max-width: 60%;
 }
 
 .card {
     width: 20rem;
     height: 22rem;
     box-shadow: 0.3rem 0.3rem 2rem -1rem black;
+    color: black;
 }
 
 .card:hover {
