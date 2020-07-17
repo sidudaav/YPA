@@ -1,128 +1,44 @@
-div.jumbotron {
-    max-height: 20rem;
-}
-
 h1.events-banner-header {
-    text-align: center;
     font-weight: 600;
     font-size: 5rem;
-    color: orange;
+    color: pink;
 }
 
 p.events-banner-description {
-    text-align: center;
-    margin: auto;
     margin-top: 1rem;
-    max-width: 60%;
 }
 
-#event-list {
-    margin: 0rem;
+img.event-img {
+    max-width: 100%;
 }
 
-.physics-speed-bowl .information {
-    text-align: center;
-    max-width: 45%;
-    margin-left:1rem;
-    margin-right:auto;
+h1.event-header {
+    font-weight: 900;
+    color: lime;
 }
 
-.physics-speed-bowl .event-name {
-    color: blue;
-}
-
-.physics-speed-bowl .event-date {
-    position: relative;
-    top: 2rem;
-    left: 30%;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;  
-    width: 15rem;
-}
-
-.physics-speed-bowl .event-date-header {
-    position: relative;
+span.winners {
+    color: lightskyblue;
     font-weight: 600;
-    font-size: 1.5rem;
-    color: red;
 }
 
-.physics-speed-bowl .event-date-time {
-    position: relative;
-    bottom: 0.15rem;
-    font-weight: 300;
-    color: green;
+p.event-date {
+    text-align: center;
+    margin-top: 3rem;
 }
 
-.physics-speed-bowl .event-image {
-    margin-left: 2rem;
-    width: 35%;
-    box-shadow: 0.3rem 0.3rem 2rem -0.8rem black;
-    position: relative;
-    left: 60%;
-    bottom: 22rem;
-}
-a.details-btn {
-    position: relative;
-    bottom: 0.1rem;
-    left: 1rem;
+a.event-details-btn {
     padding: 0.75rem;
     background-color: gray;
     border-radius: 1000rem;
     color: White;
 }
 
-a.details-btn:hover {
+a.event-details-btn:hover {
     color: black;
 }
 
-a.details-btn:active {
+a.event-details-btn:active {
     color: white;
     background-color: black;
-}
-
-p.result {
-    font-weight: 800;
-    position: relative;
-    top: 3rem;
-}
-
-@media only screen and (max-width: 65rem) {
-    div.jumbotron {
-        max-height: 25rem;
-    }
-}
-
-@media only screen and (max-width: 35rem) {
-    .physics-speed-bowl .information {
-        text-align: center;
-        max-width: 45%;
-        margin-left:1rem;
-        margin-right:auto;
-        position: relative;
-    }
-
-    .physics-speed-bowl .event-image {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 22rem) {
-    div.jumbotron {
-        max-height: 27rem;
-    }
-
-    .physics-speed-bowl .information {
-        text-align: center;
-        max-width: 45%;
-        margin-left:1rem;
-        margin-right:auto;
-        position: relative;
-        top: 2rem;
-    }
-
-    .physics-speed-bowl .event-image {
-        display: none;
-    }
 }
