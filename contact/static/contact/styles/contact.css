@@ -1,35 +1,15 @@
 h1.contact-banner-header {
-    text-align: center;
     font-weight: 600;
     font-size: 5rem;
-    color: black;
+    color: pink;
 }
 
 p.contact-banner-description {
-    text-align: center;
-    margin: auto;
     margin-top: 1rem;
-    max-width: 60%;
-}
-
-div.issue-report-form {
-    position: absolute;
-    top: 23.5rem;
-    right: 2rem;
-    width: 30%;
-}
-
-div.issue-report-form form {
-    height: 10rem;
-}
-
-div.contact {
-    margin: 2rem;
 }
 
 div.contact-points {
-    position: relative;
-    top: 2rem;
+    margin-top: 2rem;
 }
 
 h6.contact-type {
@@ -38,31 +18,4 @@ h6.contact-type {
 
 p.contact-point {
     font-weight: 200;
-}
-
-@media only screen and (max-width: 62rem) {
-    div.issue-report-form {
-        position: absolute;
-        top: 27rem;
-        right: 2rem;
-        width: 30%;
-    }
-}
-
-@media only screen and (max-width: 48rem) {
-    div.issue-report-form {
-        position: absolute;
-        top: 30rem;
-        right: 2rem;
-        width: 30%;
-    }
-}
-
-@media only screen and (max-width: 45rem) {
-    div.issue-report-form {
-        position: absolute;
-        top: 40rem;
-        right: 2rem;
-        width: 30%;
-    }
 }
