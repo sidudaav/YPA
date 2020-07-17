@@ -19,3 +19,7 @@ h6.contact-type {
 p.contact-point {
     font-weight: 200;
 }
+
+a.contact-nav-link {
+    color: peachpuff
+}

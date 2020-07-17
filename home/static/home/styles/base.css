@@ -22,3 +22,11 @@ div.messages {
 .bg-darker {
     background-color: rgb(47, 53, 59)
 }
+
+a.nav-link {
+    color: white
+}
+
+a.nav-link:hover {
+    color: orange;
+}

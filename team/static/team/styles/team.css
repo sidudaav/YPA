@@ -87,6 +87,10 @@ button.apply {
     min-height: 5rem;
 }
 
+a.team-nav-link {
+    color: peachpuff
+}
+
 
 @media only screen and (max-width: 66rem) {
     #team-list {
