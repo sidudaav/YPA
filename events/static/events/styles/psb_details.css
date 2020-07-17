@@ -1,20 +1,14 @@
-h1.psb-banner-header {
-    text-align: center;
+h1.event-details-header {
     font-weight: 600;
     font-size: 5rem;
-    color: blue;
+    color: pink;
 }
 
-p.psb-banner-description {
-    text-align: center;
-    margin: auto;
+p.event-details-description {
     margin-top: 1rem;
-    max-width: 60%;
 }
 
 #prizes {
-    position: relative;
-    left: 2rem;
     max-width: 80%;
     margin-bottom: 2rem;
 }
@@ -29,8 +23,6 @@ h3.prizes-header {
 }
 
 #register {
-    position: relative;
-    left: 2rem;
     max-width: 80%;
     margin-bottom: 2rem;
 }
@@ -45,8 +37,6 @@ h3.register-header {
 }
 
 #rules {
-    position: relative;
-    left: 2rem;
     max-width: 80%;
 }
 
