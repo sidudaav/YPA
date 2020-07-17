@@ -1,19 +1,16 @@
 div.jumbotron {
     max-height: 20rem;
+    background-color: rgb(47, 53, 59)
 }
 
 h1.welcome-banner-header {
-    text-align: center;
     font-weight: 600;
     font-size: 5rem;
-    color: red;
+    color: pink;
 }
 
 p.welcome-banner-description {
-    text-align: center;
-    margin: auto;
     margin-top: 1rem;
-    max-width: 60%;
 }
 
 div.information {
@@ -23,7 +20,7 @@ div.information {
 
 img.home-image {
     margin-left: 2rem;
-    width: 35%;
+    height: 27rem;
     box-shadow: 0.3rem 0.3rem 2rem -0.8rem black;
 }
 
@@ -35,8 +32,14 @@ div.why-to-join {
     max-width: 45%;
 }
 
-div.why-to-join h3 {
-    color: blue;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.why-to-join {
+    color: pink;
 }
 
 @media only screen and (max-width: 65rem) {

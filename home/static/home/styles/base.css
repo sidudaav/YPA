@@ -14,11 +14,11 @@ div.main-div {
     height: 100%;
 }
 
-.navbar {
-    background-color: white;
-}
-
 div.messages {
     position: absolute;
     width: 100%;
+}
+
+.bg-darker {
+    background-color: rgb(47, 53, 59)
 }
