@@ -18,18 +18,8 @@ div.information {
     height: 100%;
 }
 
-img.home-image {
-    margin-left: 2rem;
-    height: 27rem;
-    box-shadow: 0.3rem 0.3rem 2rem -0.8rem black;
-}
-
-div.why-to-join {
-    position: absolute;
-    top: 25rem;
-    right: 10rem;
-    text-align: center;
-    max-width: 45%;
+img.home-img {
+    max-width: 100%;
 }
 
 .center {
@@ -40,75 +30,4 @@ div.why-to-join {
 
 h2.why-to-join {
     color: pink;
-}
-
-@media only screen and (max-width: 65rem) {
-    img.home-image {
-        display: none;
-    }
-
-    div.why-to-join {
-        position: absolute;
-        text-align: center;
-        left: 7.5rem;
-        padding: 0rem;
-        margin: 0rem;
-        max-width: 55rem;
-    }
-}
-
-@media only screen and (max-width: 48rem) {
-    div.jumbotron {
-        max-height: 40rem;
-    }    
-
-    img.home-image {
-        display: none;
-    }
-
-    div.why-to-join {
-        position: absolute;
-        text-align: center;
-        left: 4rem;
-        top: 42rem;
-        max-width: 40rem;
-    }
-}
-
-@media only screen and (max-width: 46rem) {
-    div.jumbotron {
-        max-height: 40rem;
-    }    
-
-    img.home-image {
-        display: none;
-    }
-
-    div.why-to-join {
-        position: absolute;
-        text-align: center;
-        left: 4rem;
-        top: 45rem;
-        max-width: 40rem;
-    }
-}
-
-@media only screen and (max-width: 46rem) {
-    div.jumbotron {
-        max-height: 40rem;
-    }    
-
-    img.home-image {
-        display: none;
-    }
-
-    div.why-to-join {
-        position: absolute;
-        text-align: center;
-        left: 4rem;
-        top: 45rem;
-        max-width: 40rem;
-        margin: 0rem;
-        padding: 0rem;
-    }
 }
