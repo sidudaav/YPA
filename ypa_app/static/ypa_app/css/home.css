@@ -1,6 +1,5 @@
-div.jumbotron {
-    max-height: 20rem;
-    background-color: rgb(47, 53, 59)
+p {
+    font-size: large;
 }
 
 h1.welcome-banner-header {
@@ -11,6 +10,7 @@ h1.welcome-banner-header {
 
 p.welcome-banner-description {
     margin-top: 1rem;
+    font-size: x-large;
 }
 
 div.information {

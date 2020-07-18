@@ -1,3 +1,7 @@
+p {
+    font-size: large;
+}
+
 h1.events-banner-header {
     font-weight: 600;
     font-size: 4rem;
@@ -6,6 +10,7 @@ h1.events-banner-header {
 
 p.events-banner-description {
     margin-top: 1rem;
+    font-size: larger;
 }
 
 img.event-img {
