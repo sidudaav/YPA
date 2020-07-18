@@ -20,6 +20,10 @@ p.contact-point {
     font-weight: 200;
 }
 
+a.aze-link {
+    color: yellowgreen
+}
+
 a.contact-nav-link {
     color: peachpuff
 }
