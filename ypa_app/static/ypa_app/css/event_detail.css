@@ -1,3 +1,7 @@
+p {
+    font-size: large;
+}
+
 h1.event-details-header {
     font-weight: 600;
     font-size: 5rem;
@@ -6,6 +10,7 @@ h1.event-details-header {
 
 p.event-details-description {
     margin-top: 1rem;
+    font-size: larger;
 }
 
 #prizes {
