@@ -29,12 +29,6 @@ def chapters_home(request):
     return render(request, 'home.html', context)
 
 
-def view_chapters(request):
-    context = {
-        'title': 'Chapters'
-    }
-    return render(request, 'view_chapters.html', context)
-
 
 def contact(request):
     if request.method == "POST":
