@@ -24,6 +24,10 @@ nav.navbar {
     padding: 1.5rem;
 }
 
+.navbar-brand , .navbar-brand:hover {
+    color: lightsalmon;
+}
+
 .bg-darker {
     background-color: rgb(47, 53, 59);
 }
@@ -34,5 +38,5 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    color: orange;
+    color: lightgoldenrodyellow;
 }

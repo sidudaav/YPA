@@ -19,7 +19,7 @@ img.event-img {
 
 h1.event-header {
     font-weight: 900;
-    color: lime;
+    color: lightsalmon;
 }
 
 span.winners {
@@ -49,5 +49,5 @@ a.event-details-btn:active {
 }
 
 a.events-nav-link {
-    color: peachpuff
+    color: lightgoldenrodyellow
 }
