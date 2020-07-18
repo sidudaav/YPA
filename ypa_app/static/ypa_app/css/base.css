@@ -1,0 +1,33 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to left top, #283048, #454d50) fixed;
+}
+
+div.main-div {
+    width: 100%;
+    height: 100%;
+}
+
+div.messages {
+    position: absolute;
+    width: 100%;
+}
+
+.bg-darker {
+    background-color: rgb(47, 53, 59)
+}
+
+a.nav-link {
+    color: white
+}
+
+a.nav-link:hover {
+    color: orange;
+}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'ypa_app/css/view_chapters.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="view-chapters-banner-header">View Chapters</h1>
+        <p class="view-chapters-banner-description">
+            View all the Chapters officially registered by YPA.
+        </p>
+    </div>
+</div>
+<div id="chapters">
+    <h3 class="chapters-header">Chapters</h3>
+    <ul>
+        <li class="chapter">
+            High School (City, State, Zip Code)
+        </li>
+    </ul>
+</div>
+{% endblock %}

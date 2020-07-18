@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = 'zh-%cozdh)fp&odthy_rvmaia@1g$v)gq3tl3sd!^3svex!jms'
+# SECRET_KEY = 'zh-%cozdh)fp&odthy_rvmaia@1g$v)gq3tl3sd!^3svex!jms'
 
 SECRET_KEY = os.environ.get('YPA_SECRET_KEY')
 
@@ -34,12 +34,7 @@ ALLOWED_HOSTS = ['*', 'https://ypaphysics.herokuapp.com/']
 # Application definition
 
 INSTALLED_APPS = [
-    'articles.apps.ArticlesConfig',
-    'contact.apps.ContactConfig',
-    'events.apps.EventsConfig',
-    'chapters.apps.ChaptersConfig',
-    'team.apps.TeamConfig',
-    'home.apps.HomeConfig',
+    'ypa_app.apps.YpaAppConfig',
     'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',

@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'ypa_app/css/sample.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="recommended-articles">
+    <h3>Check These Out</h3>
+    <div id="recommended-articles-list">
+        <div class="recommended-article-information">
+            <img class="recommended-article-img" src="{% static 'ypa_app/images/PhysicsImage.jpeg' %}">
+            <a href="#" class="recommended-article-title">
+                <p>
+                    Sample Title 1
+                </p>
+            </a>
+        </div>
+        <div class="recommended-article-information">
+            <img class="recommended-article-img" src="{% static 'ypa_app/images/PhysicsImage.jpeg' %}">
+            <a href="#" class="recommended-article-title">
+                <p>
+                    Sample Title 2
+                </p>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="article">
+    <div class="article-info">
+        <h1 class="article-title">Sample Title</h1>
+        <p class="article-author">Written By: Sample Name</p>
+        <p class="article-date">Last Updated: Sample Date</p>
+    </div>
+    <div>
+        <img class="article-img" src="{% static 'ypa_app/images/PhysicsBanner.jpg' %}">
+    </div>
+    <div class="article-body">
+        <p class="article-text">
+            Some Good Old Text Some Good Old Text Some Good Old Text Some Good Old Text
+            Some Good Old Text Some Good Old Text Some Good Old Text Some Good Old Text
+            Some Good Old Text Some Good Old Text Some Good Old Text Some Good Old Text
+            Some Good Old Text Some Good Old Text Some Good Old Text Some Good Old Text
+            Some Good Old Text Some Good Old Text Some Good Old Text Some Good Old Text
+            Some Good Old Text Some Good Old Text Some Good Old Text Some Good Old Text
+            Some Good Old Text Some Good Old Text Some Good Old Text Some Good Old Text
+            Some Good Old Text Some Good Old Text Some Good Old Text Some Good Old Text
+            Some Good Old Text Some Good Old Text Some Good Old Text Some Good Old Text
+            Some Good Old Text Some Good Old Text Some Good Old Text Some Good Old Text
+        </p>
+    </div>
+</div>
+{% endblock %}
