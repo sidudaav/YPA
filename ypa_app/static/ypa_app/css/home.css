@@ -19,7 +19,8 @@ div.information {
 }
 
 img.home-img {
-    max-width: 100%;
+    height: 30rem;
+    width: auto;
 }
 
 .center {
