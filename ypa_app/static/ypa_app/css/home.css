@@ -19,8 +19,7 @@ div.information {
 }
 
 img.home-img {
-    height: 30rem;
-    width: auto;
+    max-width: 100%;
 }
 
 .center {
