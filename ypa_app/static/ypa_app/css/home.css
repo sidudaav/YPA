@@ -29,7 +29,11 @@ img.home-img {
 }
 
 h2.why-to-join {
-    color: pink;
+    color: lightsalmon;
+}
+
+h2.what-events {
+    color: lightgoldenrodyellow
 }
 
 a.home-nav-link {
