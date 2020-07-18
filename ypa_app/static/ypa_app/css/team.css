@@ -12,20 +12,15 @@ p.team-banner-description {
 .card {
     width: 20rem;
     height: 22rem;
-    box-shadow: 0.15rem 0.15rem 1rem -0.25rem pink;
-    color: black;
+    box-shadow: 0.1rem 0.1rem 0.5rem -0.1rem pink;
+    background-color: #242833;
 }
 
 .aff.card {
     width: 20rem;
     height: 22rem;
-    box-shadow: 0.3rem 0.3rem 2rem -1rem black;
-    background-color: #ffffe0;
-}
-
-.aff.card:hover {
-    background-color: rgb(169, 241, 253);
-    box-shadow: 0.3rem 0.3rem 2rem -0.5rem red;
+    box-shadow: 0.1rem 0.1rem 0.5rem -0.1rem pink;
+    background-color: #292433;
 }
 
 img.profile-img {
