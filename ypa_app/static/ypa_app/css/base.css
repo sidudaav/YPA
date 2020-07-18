@@ -20,12 +20,17 @@ div.messages {
     width: 100%;
 }
 
+nav.navbar {
+    padding: 1.5rem;
+}
+
 .bg-darker {
     background-color: rgb(47, 53, 59)
 }
 
 a.nav-link {
-    color: white
+    color: white;
+    font-size: larger;
 }
 
 a.nav-link:hover {
