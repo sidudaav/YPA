@@ -8,18 +8,14 @@
 
 {% block content %}
 <div class="row mt-5 ml-5 mr-5">
-    <div class="col-md-6">
+    <div class="col-md-5">
         <h1 class="contact-banner-header">Contact Us</h1>
         <p class="contact-banner-description">
             Feel free to contact us anytime. Our links are provided in the description below.
             If you encounter any bugs on the site, please report them so that we can fix
-            them straight away.
+            them as soon as possible.
         </p>
-    </div>
-</div>
-<div class="row ml-5 mr-5">
-    <div class="col-md-7">
-        <h3>Contact Points</h3>
+        <br>
         <div class="contact-points">
             <div>
                 <h6 class="contact-type">Email</h6>
@@ -41,6 +37,7 @@
             </div>
         </div>
     </div>
+    <div class="col-md-1"></div>
     <div class="col-md-5">
         <div class="issue-report-form">
             <form method="POST">
@@ -52,10 +49,11 @@
                     {{ report_form|crispy }}
                 </fieldset>
                 <div class="form-group">
-                    <button class="btn btn-outline-info" type="submit">Report</button>
+                    <button class="btn btn-info bg-dark" type="submit">Report</button>
                 </div>
             </form>
         </div>
     </div>
+    <div class="col-md-1"></div>
 </div>
 {% endblock %}
