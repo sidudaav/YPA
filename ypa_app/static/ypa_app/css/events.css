@@ -27,11 +27,6 @@ span.winners {
     font-weight: 600;
 }
 
-p.event-date {
-    text-align: center;
-    margin-top: 3rem;
-}
-
 a.event-details-btn {
     padding: 0.75rem;
     background-color: gray;
@@ -50,4 +45,8 @@ a.event-details-btn:active {
 
 a.events-nav-link {
     color: lightgoldenrodyellow
+}
+
+.event-date {
+    color: peachpuff;
 }

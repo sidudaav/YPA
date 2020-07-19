@@ -40,3 +40,9 @@ a.nav-link {
 a.nav-link:hover {
     color: lightgoldenrodyellow;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

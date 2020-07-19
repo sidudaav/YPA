@@ -20,27 +20,25 @@
 <div class="row mt-5 ml-5 mr-5">
     <div class="col-md-6">
         <h1 class="event-header">Azerbaijan Physics Bowl</h1>
+        <h4 class="event-date">Date: August TBD</h4>
         <p class="event-description">
             YPA has partnered with the Ministry of Education in Azerbaijan to host the National
             Physics Bowl competition of Azerbaijan (PhBA). PhBA is a quiz bowl of similar format to that
             of Physics Speed Bowl. In order to register a team for this event, you must be a citizen of
             Azerbaijan. More details for the competition can be found on the YPA Azerbaijan website.
         </p>
-        <p class="event-date">
-            Date: August TBD
-            <a class="event-details-btn ml-2" href="http://www.ypaphysicsaze.org" target="_blank">Details</a>
-        </p>
     </div>
     <div class="col-md-1"></div>
     <div class="col-md-4">
-        <div class="m-0.5 bg-light"><img class="event-img img-responsive"
-                src="{% static 'ypa_app/images/events/PhBA.png' %}"></div>
+        <div class="m-0.5 bg-light"><a href="http://www.ypaphysicsaze.org" target="_blank"><img
+                    class="event-img img-responsive" src="{% static 'ypa_app/images/events/PhBA.png' %}"></a></div>
 
     </div>
 </div>
 <div class="row mt-5 ml-5 mr-5">
     <div class="col-md-6">
         <h1 class="event-header">Physics Speed Bowl (Completed)</h1>
+        <h4 class="event-date">Date: July 10th, 3:00 PM EDT</h4>
         <p class="event-description">
             The Physics Speed Bowl (PSB) was the first ever event hosted by YPA, and it
             was a huge success! After receiving high interest for the event, we selected the first
@@ -53,14 +51,12 @@
             and semi-finalist <span class="winners">Annihilators (AZE)</span>, for being the top 4 teams in the
             competition!
         </p>
-        <p class="event-date">
-            Date: July 10th 3:00 PM EDT
-            <a class="event-details-btn ml-2" href="{% url 'events-psb' %}" target="_blank">Details</a>
-        </p>
     </div>
     <div class="col-md-1"></div>
     <div class="col-md-4">
-        <img class="event-img img-responsive" src="{% static 'ypa_app/images/events/PSB_Square.png' %}">
+        <a href="{% url 'events-psb' %}">
+            <img class="event-img img-responsive" src="{% static 'ypa_app/images/events/PSB_Square.png' %}">
+        </a>
     </div>
 </div>
 {% endblock %}
