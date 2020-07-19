@@ -1,3 +1,9 @@
 from django.contrib import admin
+from .models import IssueReport
 
-# Register your models here.
+
+class IssueReportAdmin(admin.ModelAdmin):
+    list_display = ['title', 'description', 'created_on']
+
+
+admin.site.register(IssueReport, IssueReportAdmin)
