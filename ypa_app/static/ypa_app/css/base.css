@@ -33,12 +33,12 @@ nav.navbar {
 }
 
 a.nav-link {
-    color: white;
+    color: white !important;
     font-size: larger;
 }
 
 a.nav-link:hover {
-    color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow !important;
 }
 
 .center {
@@ -46,3 +46,7 @@ a.nav-link:hover {
     margin-left: auto;
     margin-right: auto;
 }
+  
+.custom-toggler.navbar-toggler {
+    border-color: peachpuff;
+} 
