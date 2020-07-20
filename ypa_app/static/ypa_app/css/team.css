@@ -12,14 +12,22 @@ p.team-banner-description {
 .card {
     width: 20rem;
     height: 22rem;
-    box-shadow: 0.1rem 0.1rem 0.5rem -0.1rem peachpuff;
+    box-shadow: /* ie */
+                 0px -10px 15px -4px  peachpuff, /* top - THE RED SHADOW */
+                 0px  5px  15px  -4px  lightsalmon, /* bottom */
+                 5px  0px  15px  -4px  gray, /* right */
+                -5px  0px  15px  -4px  white; /* left */
     background-color: #242833;
 }
 
 .aff.card {
     width: 20rem;
     height: 22rem;
-    box-shadow: 0.1rem 0.1rem 0.5rem -0.1rem peachpuff;
+    box-shadow: /* ie */
+                 0px -10px 15px -4px  peachpuff, /* top - THE RED SHADOW */
+                 0px  5px  15px  -4px  lightsalmon, /* bottom */
+                 5px  0px  15px  -4px  gray, /* right */
+                -5px  0px  15px  -4px  white; /* left */
     background-color: #292433;
 }
 
