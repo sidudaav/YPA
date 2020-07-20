@@ -33,12 +33,12 @@ nav.navbar {
 }
 
 a.nav-link {
-    color: white !important;
+    color: white;
     font-size: larger;
 }
 
 a.nav-link:hover {
-    color: lightgoldenrodyellow !important;
+    color: lightgoldenrodyellow;
 }
 
 .center {
@@ -46,7 +46,12 @@ a.nav-link:hover {
     margin-left: auto;
     margin-right: auto;
 }
-  
-.custom-toggler.navbar-toggler {
-    border-color: peachpuff;
-} 
+
+.rotate-anim {
+    transition-duration: 2000ms;
+    transition-property: transform;
+}
+
+.rotate-anim:hover {
+    transform: rotate(360deg);
+}
