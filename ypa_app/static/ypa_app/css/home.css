@@ -2,7 +2,7 @@ p {
     font-size: large;
 }
 
-h1.welcome-banner-header {
+h1 {
     font-weight: 600;
     font-size: 3rem;
     color: peachpuff;
@@ -28,16 +28,20 @@ img.home-img {
     margin-right: auto;
 }
 
-h2.why-to-join {
-    color: lightsalmon;
-    font-weight: 600;
-}
-
-h2.what-events {
+h2 {
     color: lightsalmon;
     font-weight: 600;
 }
 
 a.home-nav-link {
     color: lightgoldenrodyellow !important;
+}
+
+.sponsor-img {
+    border-radius: 15px;
+    box-shadow: /* ie */
+                 0px -5px 7.5px -2px  peachpuff, /* top - THE RED SHADOW */
+                 0px  2.5px  7.5px  -2px  lightsalmon, /* bottom */
+                 2.5px  0px  7.5px  -2px  gray, /* right */
+                -2.5px  0px  7.5px  -2px  white; /* left */
 }
