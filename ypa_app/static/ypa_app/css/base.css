@@ -55,3 +55,7 @@ a.nav-link:hover {
 .rotate-anim:hover {
     transform: rotate(360deg);
 }
+
+#copyright {
+    padding: 2rem;
+}
