@@ -1,0 +1,143 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'ypa_app/css/event_detail.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="row mt-5 ml-5 mr-5">
+    <div class="col-md-6 bg">
+        <h1 class="event-details-header">Think Physics! 2020</h1>
+        <p class="event-details-description">
+            In Think Physics!, your goal is to write a paper that aims to make progress in solving
+            some type issue using physics. You can propose a hypothetical solution to any problem
+            you would like. This includes global issues or a small one in our daily lives. However,
+            whatever solution you propose must be rigorously backed by physics or other scientific principles.
+        </p>
+    </div>
+</div>
+<div class="container">
+    <div id="prizes">
+        <h3>Prizes</h3>
+        <ol>
+            <li>
+                To Be Announced Soon!
+            </li>
+        </ol>
+    </div>
+    <div id="register">
+        <h3>Register</h3>
+        <ol>
+            <li>
+                <a class="register-link" href="https://forms.gle/oGkziEDwQFD1uYE68" target="_blank">
+                    Click this link to register
+                </a>
+            </li>
+            <li>
+                Registration must be completed before the submission deadline.
+            </li>
+            <li>
+                Teams consist of 1-4 members. Team members do not need to be from the same school.
+            </li>
+            <li>
+                Every team member must be going to high school as of fall 2020 in order to participate.
+            </li>
+            <li>
+                Only one person per team should register.
+            </li>
+            <li>
+                After registering, you will receive a message confirming
+                your registration within a couple days.
+            </li>
+        </ol>
+    </div>
+    <div id="rules">
+        <h3>Tasks</h3>
+        <ol>
+            <li class="main-rule">
+                Write a paper that proposes a hypothetical solution to a problem.
+                <ul>
+                    <li class="sub-rule">
+                        Solution must be based on physics and engineering principles.
+                    </li>
+                </ul>
+            </li>
+            <li class="main-rule">
+                The submissions will be judged on specific criteria.
+                <ul>
+                    <li class="sub-rule">
+                        Is your paper understandable?
+                    </li>
+                    <li class="sub-rule">
+                        Was physics used, and if so how significant is physics to the solution itself?
+                    </li>
+                    <li class="sub-rule">
+                        How elegant/creative is the solution itself?
+                    </li>
+                    <li class="sub-rule">
+                        Can some else build on top of your work?
+                    </li>
+                    <li class="sub-rule">
+                        Are correct physics principles used?
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <h3>Rules</h3>
+        <ol>
+            <li class="main-rule">
+                All work must be largely the contestant’s.
+            </li>
+            <li class="main-rule">
+                If your program is not self explanatory, then you are expected to submit a google docs/word
+                document/pdf explain how to use your program with max 600 words, or have a tutorial on
+                your program.
+            </li>
+            <li class="main-rule">
+                Do not have your name on your program for judging purposes.
+            </li>
+        </ol>
+        <h3>Submission</h3>
+        <ol>
+            <li class="main-rule">
+                Email your submission to YPAsubmission@gmail.com by August 31st 11:59:00 PM EDT.
+            </li>
+            <li class="main-rule">
+                You must submit either one google doc, a word doc or a pdf.
+            </li>
+            <li class="main-rule">
+                Your paper must not have more than 3000 words including everything
+                (ex. title, author name, headers). If you have more, your paper will be penalized.
+            </li>
+            <li class="main-rule">
+                Please provide an email of everyone on the team.
+            </li>
+            <li class="main-rule">
+                Please have the team members' names written on the report.
+            </li>
+            <li class="main-rule">
+                The due date for the submission is August 31th 11:59:00 EDT.
+            </li>
+        </ol>
+        <h3>Judging</h3>
+        <ol>
+            <li class="main-rule">
+                There will be around 9 judges total: 7 judges for part 1 and 2 judges for part 2. The
+                judging process will be broken into two parts.
+                <ul>
+                    <li class="sub-rule">
+                        PART 1: Each judge in part 1 will give a score out of 10 in each of the categories
+                        listed in Task(2)(a-d), and the 10 papers with the highest average score will be
+                        considered for part 2.
+                    </li>
+                    <li class="sub-rule">
+                        PART 2: Each judge in part 2 will give a score out of 10 for the category Task(2)(e),
+                        and the ranking of the top 10 will be decided by the average score given.
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</div>
+{% endblock %}

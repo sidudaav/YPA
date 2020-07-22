@@ -8,4 +8,5 @@ urlpatterns = [
     path('events/', views.events, name='events'),
     path('events/psb', views.events_psb, name='events-psb'),
     path('events/codeify', views.events_codeify, name='events-codeify'),
+    path('events/think', views.events_think, name='events-think'),
 ]
