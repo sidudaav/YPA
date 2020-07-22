@@ -59,3 +59,11 @@ a.nav-link:hover {
 #copyright {
     padding: 2rem;
 }
+
+a {
+    color: pink;
+}
+
+a:hover {
+    color: rgb(215, 152, 163);
+}
