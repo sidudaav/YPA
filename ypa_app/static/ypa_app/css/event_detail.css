@@ -18,7 +18,7 @@ p.event-details-description {
     margin-bottom: 2rem;
 }
 
-h3.prizes-header {
+h3 {
     font-weight: 800;
 }
 
@@ -32,10 +32,6 @@ h3.prizes-header {
     margin-bottom: 2rem;
 }
 
-h3.register-header {
-    font-weight: 800;
-}
-
 a.register-link {
     color: greenyellow;
 }
@@ -47,10 +43,6 @@ a.register-link {
 
 #rules {
     max-width: 80%;
-}
-
-h3.rules-header {
-    font-weight: 800;
 }
 
 li.main-rule {

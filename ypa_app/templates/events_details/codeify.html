@@ -1,0 +1,158 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'ypa_app/css/event_detail.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="row mt-5 ml-5 mr-5">
+    <div class="col-md-6 bg">
+        <h1 class="event-details-header">Code-ify Physics! 2020</h1>
+        <p class="event-details-description">
+            In YPA’s third contest ever, you code any physics related program. This can
+            be done in either python, java or any other coding languages you desire and
+            you can submit any project as long as it is physics related. Examples include
+            an educational software, a simulation, a physics demonstration, a website,
+            and much more!
+        </p>
+    </div>
+</div>
+<div class="container">
+    <div id="prizes">
+        <h3>Prizes</h3>
+        <ol>
+            <li>
+                The top 3 contestants will win a 1 year license for Maple from Maplesoft.
+            </li>
+            <li>
+                More prizes may be added if significant interest is shown.
+            </li>
+        </ol>
+    </div>
+    <div id="register">
+        <h3>Register</h3>
+        <ol>
+            <li>
+                <a class="register-link" href="https://forms.gle/P6mUqd6BcGxsNEh18" target="_blank">
+                    Click this link to register
+                </a>
+            </li>
+            <li>
+                Registration must be completed before the submission deadline.
+            </li>
+            <li>
+                This is an individual contest.
+            </li>
+            <li>
+                You must be going to high school as of fall 2020 in order to participate.
+            </li>
+            <li>
+                After registering, you will receive a message confirming
+                your registration within a couple days.
+            </li>
+        </ol>
+    </div>
+    <div id="rules">
+        <h3>Tasks</h3>
+        <ol>
+            <li class="main-rule">
+                Combine physics with computer science in an interesting way.
+            </li>
+            <li class="main-rule">
+                Submit your codebase and a description of your project.
+                <ul>
+                    <li class="sub-rule">
+                        Any programming language may be used.
+                    </li>
+                    <li class="sub-rule">
+                        The description may not be longer than 600 words.
+                    </li>
+                </ul>
+            </li>
+            <li class="main-rule">
+                The submissions will be judged on specific criteria.
+                <ul>
+                    <li class="sub-rule">
+                        Useability/Effectiveness: your project accurately serves its designed purpose.
+                    </li>
+                    <li class="sub-rule">
+                        Uniqueness/Creativity: novelty and originality of ideas are highly valued.
+                    </li>
+                    <li class="sub-rule">
+                        Implementation of physics: your program must show a significant combination of
+                        physics and computer science.
+                    </li>
+                    <li class="sub-rule">
+                        Complexity: thought and time has been put into the project.
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <h3>Rules</h3>
+        <ol>
+            <li class="main-rule">
+                All work must be largely the contestant’s.
+            </li>
+            <li class="main-rule">
+                If your program is not self explanatory, then you are expected to submit a google docs/word
+                document/pdf explain how to use your program with max 600 words, or have a tutorial on
+                your program.
+            </li>
+            <li class="main-rule">
+                Do not have your name on your program for judging purposes.
+            </li>
+        </ol>
+        <h3>Submission</h3>
+        <ol>
+            <li class="main-rule">
+                Email your submission to YPAsubmission@gmail.com by August 25th 11:59:00 PM EDT.
+            </li>
+            <li class="main-rule">
+                Only email once per person, if you need to edit your submission reply to the email you sent,
+                replies after the due date will be ignored.
+            </li>
+            <li class="main-rule">
+                Make the subject line of the email → [your name] Code-ify Physics 2020.
+            </li>
+            <li class="main-rule">
+                If your program contains multiple files please zip instead of giving multiple files,
+                otherwise submit an individual file, this does not include instruction or description
+                of the program.
+            </li>
+            <li class="main-rule">
+                If your files size is beyond 25 MB (at this point google will not allow you to send the email),
+                please upload your file to a google drive and share the link with YPAsubmission@gmail.com,
+                and give the email permission to judge.
+            </li>
+            <li class="main-rule">
+                Submit any documents or information which will make analyzing your program easier
+                for the judges.
+            </li>
+        </ol>
+        <h3>Judging</h3>
+        <ol>
+            <li class="main-rule">
+                Judging will involve around 8 judges and will be broken into two parts.
+                <ul>
+                    <li class="sub-rule">
+                        PART 1: each judge will give a score out of 10 to each of the qualities
+                        listed in Tasks(2), and the 10 best programs with the highest scores on
+                        average will be considered for part 2.
+                    </li>
+                    <li class="sub-rule">
+                        PART 2: each judge will rank the top 10, and the winners will be decided by
+                        best average rank from all of the judges. The ranking will be based off of
+                        the qualities listed in Task(2).
+                    </li>
+                </ul>
+            </li>
+            <li class="main-rule">
+                While judging, the judges will not know the name of the contestant to remove any bias.
+                Having your nameon the program is not recommended as doing so will result in lower
+                judge scores.
+            </li>
+        </ol>
+    </div>
+</div>
+{% endblock %}

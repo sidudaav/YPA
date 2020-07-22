@@ -63,3 +63,7 @@ def events(request):
 
 def events_psb(request):
     return render(request, 'events_details/psb.html')
+
+
+def events_codeify(request):
+    return render(request, 'events_details/codeify.html')
