@@ -58,15 +58,27 @@ def team(request):
 
 
 def events(request):
-    return render(request, 'events.html')
+    context = {
+        'title': 'Events',
+    }
+    return render(request, 'events.html', context)
 
 
 def events_psb(request):
-    return render(request, 'events_details/psb.html')
+    context = {
+        'title': 'Physics Speed Bowl (PSB)',
+    }
+    return render(request, 'events_details/psb.html', context)
 
 
 def events_codeify(request):
-    return render(request, 'events_details/codeify.html')
+    context = {
+        'title': 'Code-ify Physics! 2020',
+    }
+    return render(request, 'events_details/codeify.html', context)
 
 def events_think(request):
-    return render(request, 'events_details/think.html')
+    context = {
+        'title': 'Think Physics! 2020',
+    }
+    return render(request, 'events_details/think.html', context)
