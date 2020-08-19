@@ -29,7 +29,6 @@ def chapters_home(request):
     return render(request, 'home.html', context)
 
 
-
 def contact(request):
     if request.method == "POST":
         report_form = IssueReportForm(request.POST)
@@ -76,6 +75,7 @@ def events_codeify(request):
         'title': 'Code-ify Physics! 2020',
     }
     return render(request, 'events_details/codeify.html', context)
+
 
 def events_think(request):
     context = {
