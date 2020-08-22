@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block meta-tags %}
+<meta name="description"
+    content="View all of the Young Physicists Association (YPA Physics) events. We host physics competitions for high school students.">
+{% endblock %}
+
+
 {% block css %}
 <link rel="stylesheet" type="text/css" href="{% static 'ypa_app/css/events.css' %}">
 {% endblock %}

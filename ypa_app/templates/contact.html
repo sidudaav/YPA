@@ -2,6 +2,12 @@
 {% load static %}
 {% load crispy_forms_tags %}
 
+{% block meta-tags %}
+<meta name="description"
+    content="Contact the Young Physicists Assocition (YPA Physics) with any questions you may have. Our team is always looking to help.">
+{% endblock %}
+
+
 {% block css %}
 <link rel="stylesheet" type="text/css" href="{% static 'ypa_app/css/contact.css' %}">
 {% endblock %}

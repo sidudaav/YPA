@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block meta-tags %}
+<meta name="description"
+    content="Welcome to the Young Physicists Association (YPA Physics)! Take a look at an overview of our team and what we do.">
+{% endblock %}
+
+
 {% block css %}
 <link rel="stylesheet" type="text/css" href="{% static 'ypa_app/css/home.css' %}">
 {% endblock %}

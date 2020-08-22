@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block meta-tags %}
+<meta name="description"
+    content="Particpate in YPA Physics's Code-ify Physics! 2020 event. Join the Young Physicists Association with computer science and physics">
+{% endblock %}
+
 {% block css %}
 <link rel="stylesheet" type="text/css" href="{% static 'ypa_app/css/event_detail.css' %}">
 {% endblock %}
