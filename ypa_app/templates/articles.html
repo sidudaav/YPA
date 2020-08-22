@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block meta-tags %}
+<meta name="description" content="Place the meta description text here.">
+
+{% endblock %}
+
 {% block css %}
 <link rel="stylesheet" type="text/css" href="{% static 'ypa_app/css/articles.css' %}">
 {% endblock %}
