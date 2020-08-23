@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block meta-tags %}
+<meta name="description"
+    content="View all of the Young Physicists Association (YPA Physics) events. We host physics competitions for high school students.">
+{% endblock %}
+
+
 {% block css %}
 <link rel="stylesheet" type="text/css" href="{% static 'ypa_app/css/events.css' %}">
 {% endblock %}
@@ -11,7 +17,7 @@
     <div class="col-md-8">
         <h1 class="events-banner-header">Events</h1>
         <p class="events-banner-description">
-            YPA hosts a number of events throughout both the school year and the summer.
+            YPA Physics hosts a number of events throughout both the school year and the summer.
             These events allow students to network and come together to have a great
             experience solving physics problems or participating in challenges.
         </p>
@@ -27,7 +33,7 @@
         <p class="event-description">
             Considering you are reading this, a lot of your experience in physics is likely centered around solving
             problems from textbooks or tests and contests. Now it is your chance to go a step forward and solve a real
-            world problem of your choice. In YPA’s next contest, write a research paper that proposes
+            world problem of your choice. In YPA Physics’s next contest, write a research paper that proposes
             a hypothetical solution backed by physics that aims to make progress in solving some type
             of issue, whether it is a global issue or a small one in our daily lives.
         </p>
@@ -35,7 +41,8 @@
     <div class="col-md-1"></div>
     <div class="col-md-4">
         <a href="{% url 'events-think' %}" target="_blank">
-            <img class="event-img img-responsive" src="{% static 'ypa_app/images/events/ThinkPhysics.png' %}">
+            <img class="event-img img-responsive" src="{% static 'ypa_app/images/events/ThinkPhysics.png' %}"
+                alt="Think Physics! 2020 (YPA Physics)">
         </a>
     </div>
 </div>
@@ -47,7 +54,7 @@
                     class="btn btn-outline-info btn-lg">Details</button></a>
         </h4>
         <p class="event-description">
-            Love coding and love physics? For YPA’s third ever contest we are hosting the Code-ify
+            Love coding and love physics? For YPA Physics’s third ever contest we are hosting the Code-ify
             Physics contest which will allow you to do both at the same time! You will get the
             opportunity to code any physics related ideas you want for a chance to win prizes.
             From an educational program to a physics simulation, the sky’s the limit!
@@ -56,7 +63,8 @@
     <div class="col-md-1"></div>
     <div class="col-md-4">
         <a href="{% url 'events-codeify' %}" target="_blank">
-            <img class="event-img img-responsive" src="{% static 'ypa_app/images/events/Codeify.png' %}">
+            <img class="event-img img-responsive" src="{% static 'ypa_app/images/events/Codeify.png' %}"
+                alt="Code-ify Physics! 2020 (YPA Physics)">
         </a>
     </div>
 </div>
@@ -66,7 +74,7 @@
         <h4 class="event-date mt-3 mb-3">Date: August 30th <a class="m-5 mt-1 mb-1" href="http://www.ypaphysicsaze.org"
                 target="_blank"><button type="button" class="btn btn-outline-info btn-lg">Details</button></a></h4>
         <p class="event-description">
-            YPA has partnered with the Ministry of Education in Azerbaijan to host the National
+            YPA Physics has partnered with the Ministry of Education in Azerbaijan to host the National
             Physics Bowl competition of Azerbaijan (PhBA). PhBA is a quiz bowl of similar format to that
             of Physics Speed Bowl. In order to register a team for this event, you must be a citizen of
             Azerbaijan. More details for the competition can be found on the YPA Azerbaijan website.
@@ -76,7 +84,8 @@
     <div class="col-md-4">
         <div class="m-0.5 bg-light">
             <a href="http://www.ypaphysicsaze.org" target="_blank">
-                <img class="event-img img-responsive" src="{% static 'ypa_app/images/events/PhBA.png' %}">
+                <img class="event-img img-responsive" src="{% static 'ypa_app/images/events/PhBA.png' %}"
+                    alt="PhBA Azerbaijan (YPA Physics)">
             </a>
         </div>
     </div>
@@ -103,9 +112,9 @@
     </div>
     <div class="col-md-1"></div>
     <div class="col-md-4">
-        <a href="{% url 'events-psb' %}">
+        <a href="{% url 'events-psb' %}" target="_blank">
             <img class="event-img img-responsive" src="{% static 'ypa_app/images/events/PSB_Square.png' %}"
-                target="_blank">
+                alt="Physics Speed Bowl 2020 (YPA Physics)">
         </a>
     </div>
 </div>

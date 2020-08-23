@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block meta-tags %}
+<meta name="description"
+    content="Look at the team members of the Young Physicists Association (YPA Physics). Fill out a form if you wish to join us!">
+{% endblock %}
+
+
 {% block css %}
 <link rel="stylesheet" type="text/css" href="{% static 'ypa_app/css/team.css' %}">
 {% endblock %}
@@ -24,7 +30,8 @@
 <div id="team-list">
     <div class="sid card">
         <div class="card-body">
-            <img src="{% static 'ypa_app/images/people/Sid_Circle.jpg' %}" class="profile-img img-fluid rounded-circle">
+            <img src="{% static 'ypa_app/images/people/Sid_Circle.jpg' %}" alt="Siddharth Sid Jha"
+                class="profile-img img-fluid rounded-circle">
             <div class="profile-information">
                 <h3 class="name">
                     Siddharth Jha
@@ -40,7 +47,7 @@
     </div>
     <div class="jerry card">
         <div class="card-body">
-            <img src="{% static 'ypa_app/images/people/Jerry_Circle.png' %}"
+            <img src="{% static 'ypa_app/images/people/Jerry_Circle.png' %}" alt="Jerry Li"
                 class="profile-img img-fluid rounded-circle">
             <div class="profile-information">
                 <h3 class="name">
@@ -57,7 +64,7 @@
     </div>
     <div class="joshua card">
         <div class="card-body">
-            <img src="{% static 'ypa_app/images/people/Joshua_Circle.png' %}"
+            <img src="{% static 'ypa_app/images/people/Joshua_Circle.png' %}" alt="Joshua Scripcaru"
                 class="profile-img img-fluid rounded-circle">
             <div class="profile-information">
                 <h3 class="name">
@@ -74,7 +81,7 @@
     </div>
     <div class="danesh card">
         <div class="card-body">
-            <img src="{% static 'ypa_app/images/people/Danesh_Circle.png' %}"
+            <img src="{% static 'ypa_app/images/people/Danesh_Circle.png' %}" alt="Danesh Sivakumar"
                 class="profile-img img-fluid rounded-circle">
             <div class="profile-information">
                 <h3 class="name">
@@ -91,7 +98,7 @@
     </div>
     <div class="derek card">
         <div class="card-body">
-            <img src="{% static 'ypa_app/images/people/Derek_Circle.png' %}"
+            <img src="{% static 'ypa_app/images/people/Derek_Circle.png' %}" alt="Derek Zhu"
                 class="profile-img img-fluid rounded-circle">
             <div class="profile-information">
                 <h3 class="name">
@@ -108,7 +115,7 @@
     </div>
     <div class="heramb card">
         <div class="card-body">
-            <img src="{% static 'ypa_app/images/people/Heramb_Circle.png' %}"
+            <img src="{% static 'ypa_app/images/people/Heramb_Circle.png' %}" alt="Heramb Podar"
                 class="profile-img img-fluid rounded-circle">
             <div class="profile-information">
                 <h3 class="name">
@@ -125,7 +132,7 @@
     </div>
     <div class="aarush card">
         <div class="card-body">
-            <img src="{% static 'ypa_app/images/people/Aarush_Circle.png' %}"
+            <img src="{% static 'ypa_app/images/people/Aarush_Circle.png' %}" alt="Aarush Gupta"
                 class="profile-img img-fluid rounded-circle">
             <div class="profile-information">
                 <h3 class="name">
@@ -142,7 +149,7 @@
     </div>
     <div class="ivan card">
         <div class="card-body">
-            <img src="{% static 'ypa_app/images/people/Ivan_Circle.png' %}"
+            <img src="{% static 'ypa_app/images/people/Ivan_Circle.png' %}" alt="Ivan Ge"
                 class="profile-img img-fluid rounded-circle">
             <div class="profile-information">
                 <h3 class="name">
@@ -159,7 +166,7 @@
     </div>
     <div class="card">
         <div class="card-body">
-            <img src="{% static 'ypa_app/images/people/Question_Circle.png' %}"
+            <img src="{% static 'ypa_app/images/people/Question_Circle.png' %}" alt="This Could Be You!"
                 class="profile-img img-fluid rounded-circle">
             <div class="profile-information">
                 <h3 class="name">

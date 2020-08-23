@@ -1,6 +1,10 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block meta-tags %}
+<meta name=”robots” content="noindex, nofollow">
+{% endblock %}
+
 {% block css %}
 <link rel="stylesheet" type="text/css" href="{% static 'ypa_app/css/view_chapters.css' %}">
 {% endblock %}
